@@ -1,4 +1,9 @@
-## Hi there 👋
+<p align=”center”>
+  <img width=”720" height=”240" src="https://github.com/user-attachments/assets/7a23f526-e6c2-4262-a4f6-fe345d22c08d" alt="Banner - Caption is hello, world!">
+</p>
+
+Hi there! I am Daniel, a 16 year old developer whose interests include cybersecurity and hardware hacking, low level hardware, web design, and linux.
+You can contact me at [hi@danieldb.uk](mailto:hi@danieldb.uk) or visit my website [danieldb.uk](https://danieldb.uk/)
 
 <!--
 **Dragon863/Dragon863** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
