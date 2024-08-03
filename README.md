@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="1440" height="480" src="https://github.com/user-attachments/assets/a34d821a-9297-4b8d-add8-003f308b6f00" alt="Banner - Caption is hello, world!">
+  <img width="1440" height="480" src="https://github.com/user-attachments/assets/4540bcda-d22e-4577-ab74-83c213c1e886" alt="Banner - Caption is hello, world!">
 </p>
 
 Hi there! I am Daniel, a 16 year old developer whose interests include cybersecurity and hardware hacking, low level hardware, web design, and linux.
