@@ -24,7 +24,7 @@ jobs:
       - name: Calculate total stars
         run: node scripts/update-stars.js
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           
       - name: Commit and push changes
         run: |
@@ -34,4 +34,4 @@ jobs:
           git commit -m 'Update total stars count'
           git push
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
