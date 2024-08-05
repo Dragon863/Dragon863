@@ -1,7 +1,9 @@
-const { Octokit } = require("@octokit/core");
-const fs = require("fs");
+// update-stars.mjs
 
-const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
+import { Octokit } from "@octokit/core";
+import { promises as fs } from "fs";
+
+const octokit = new Octokit({ auth: process.env.GH_TOKEN });
 
 async function getTotalStars() {
   const response = await octokit.request('GET /users/Dragon863/repos', {
@@ -11,7 +13,7 @@ async function getTotalStars() {
   const repos = response.data;
   const totalStars = repos.reduce((acc, repo) => acc + repo.stargazers_count, 0);
 
-  fs.writeFileSync("stars.json", JSON.stringify({ totalStars }));
+  await fs.writeFile("stars.json", JSON.stringify({ totalStars }));
 }
 
 getTotalStars();

@@ -2,7 +2,7 @@ name: Update Stars Count
 
 on:
   schedule:
-    - cron: '0 * * * *' # Runs every hour
+    - cron: '0 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -22,7 +22,7 @@ jobs:
         run: npm install @octokit/core
 
       - name: Calculate total stars
-        run: node scripts/update-stars.js
+        run: node scripts/update-stars.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           
