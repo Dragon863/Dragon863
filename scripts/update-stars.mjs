@@ -3,10 +3,11 @@
 import { Octokit } from "@octokit/core";
 import { promises as fs } from "fs";
 
-const octokit = new Octokit({ auth: process.env.GH_TOKEN });
+const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
 
 async function getTotalStars() {
-  const response = await octokit.request('GET /users/Dragon863/repos', {
+  const username = "Dragon863"; // Replace with your GitHub username
+  const response = await octokit.request('GET /users/{username}/repos', {
     username
   });
 
