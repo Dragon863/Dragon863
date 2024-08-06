@@ -32,10 +32,10 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add stars.json
-          echo "::set-output name=changes::$(git status --porcelain)"
+          echo "CHANGES=$(git status --porcelain)" >> $GITHUB_ENV
 
       - name: Commit and push changes
-        if: steps.git_status.outputs.changes != ''
+        if: env.CHANGES != ''
         run: |
           git commit -m 'Update total stars count'
           git push
