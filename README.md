@@ -10,7 +10,7 @@
 
 </p>
 
-👋 Hi there! I am Daniel, a 16 year old developer whose interests include cybersecurity and hardware hacking, low level hardware, web design, and linux.
+👋 Hi there! I'm Daniel Benge, a 16 year old developer whose interests include cybersecurity and hardware hacking, low level hardware, web design, and linux.
 You can contact me at [hi@danieldb.uk](mailto:hi@danieldb.uk) or visit my website [danieldb.uk](https://danieldb.uk/)
 
 ## Tools I use
