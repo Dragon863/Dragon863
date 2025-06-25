@@ -10,7 +10,7 @@
 
 </p>
 
-Hello! I'm Daniel Benge, a 16 year old developer whose interests include cybersecurity and hardware hacking, low level hardware, web design, and linux. I'm an A level student in the UK, and the founder of [Runshaw Hack Club](http://runshaw.hackclub.com/).
+Hello! I'm Daniel Benge, a 17 year old developer whose interests include cybersecurity and hardware hacking, low level hardware, web design, and linux. I'm an A level student in the UK, and the founder of [Runshaw Hack Club](http://runshaw.hackclub.com/).
 You can contact me at [hi@danieldb.uk](mailto:hi@danieldb.uk) or visit [my website ](https://danieldb.uk/)
 
 ## Tools / Software I love
