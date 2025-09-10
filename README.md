@@ -38,4 +38,4 @@ You can contact me at [hi@danieldb.uk](mailto:hi@danieldb.uk) or visit [my websi
 
 ---
 
-Check out some of my work below, including a tool to root echo dots and a production appplication I develop and maintain with hundreds of daily active users!
+Check out some of my work below, including a tool to root echo dots and a production application I develop and maintain with thousands of daily active users!
